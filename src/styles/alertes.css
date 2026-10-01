@@ -1,0 +1,115 @@
+/* SweetAlert2 — thème EventQR (centré, pro) */
+
+.swal2-container {
+  z-index: 10000 !important;
+}
+
+.eventqr-swal-popup {
+  border-radius: 14px !important;
+  border: 1px solid var(--eventqr-bordure) !important;
+  box-shadow:
+    0 24px 48px color-mix(in srgb, var(--eventqr-bleu-nuit) 18%, transparent),
+    0 4px 12px color-mix(in srgb, var(--eventqr-principal) 8%, transparent) !important;
+  padding: 1.75rem 1.5rem 1.5rem !important;
+  font-family: Inter, sans-serif !important;
+  color: var(--eventqr-texte) !important;
+  width: min(28rem, calc(100vw - 2rem)) !important;
+}
+
+.eventqr-swal-title {
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+  color: var(--eventqr-bleu-nuit) !important;
+  letter-spacing: -0.02em !important;
+}
+
+.eventqr-swal-texte {
+  font-size: 0.9375rem !important;
+  color: var(--eventqr-texte-secondaire) !important;
+  line-height: 1.5 !important;
+}
+
+.eventqr-swal-actions {
+  gap: 0.75rem !important;
+  margin-top: 1.25rem !important;
+  width: 100% !important;
+}
+
+.eventqr-swal-confirmer,
+.eventqr-swal-annuler {
+  min-height: 44px !important;
+  min-width: 7.5rem !important;
+  border-radius: 10px !important;
+  padding: 0.625rem 1.25rem !important;
+  font-size: 0.875rem !important;
+  font-weight: 600 !important;
+  border: none !important;
+  cursor: pointer !important;
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease !important;
+}
+
+.eventqr-swal-confirmer {
+  background: var(--eventqr-principal) !important;
+  color: #ffffff !important;
+}
+
+.eventqr-swal-confirmer:hover {
+  background: var(--eventqr-bleu-nuit) !important;
+}
+
+.eventqr-swal-confirmer--destructif {
+  background: var(--eventqr-erreur) !important;
+}
+
+.eventqr-swal-confirmer--destructif:hover {
+  background: color-mix(in srgb, var(--eventqr-erreur) 85%, #000) !important;
+}
+
+.eventqr-swal-annuler {
+  background: #ffffff !important;
+  color: var(--eventqr-principal) !important;
+  border: 1.5px solid var(--eventqr-principal) !important;
+}
+
+.eventqr-swal-annuler:hover {
+  background: var(--accent) !important;
+}
+
+.eventqr-swal-icone {
+  margin: 0.25rem auto 0.75rem !important;
+  border-width: 3px !important;
+}
+
+.swal2-icon.swal2-success {
+  border-color: var(--eventqr-succes) !important;
+  color: var(--eventqr-succes) !important;
+}
+
+.swal2-icon.swal2-success [class^='swal2-success-line'],
+.swal2-icon.swal2-success .swal2-success-ring {
+  background-color: var(--eventqr-succes) !important;
+  border-color: var(--eventqr-succes) !important;
+}
+
+.swal2-icon.swal2-error {
+  border-color: var(--eventqr-erreur) !important;
+  color: var(--eventqr-erreur) !important;
+}
+
+.swal2-icon.swal2-warning {
+  border-color: var(--eventqr-attention) !important;
+  color: var(--eventqr-attention) !important;
+}
+
+.swal2-icon.swal2-info,
+.swal2-icon.swal2-question {
+  border-color: var(--eventqr-bleu-clair) !important;
+  color: var(--eventqr-bleu-clair) !important;
+}
+
+.swal2-backdrop-show {
+  background: color-mix(in srgb, var(--eventqr-bleu-nuit) 45%, transparent) !important;
+}
